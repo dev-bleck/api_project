@@ -10,5 +10,7 @@ from my_api import naver_api
 
 search_api(url, naver_keys["CLIENT_ID"], naver_keys["CLIENT_SECRET"], params = params)
 
-translate_api(text, url, naver_keys["CLIENT_ID"], naver_keys["CLIENT_SECRET"])
+translate_api(text, url, naver_keys["CLIENT_ID"], naver_keys["CLIENT_SECRET"]) # default source = "en", target ="
+
+
 ```
